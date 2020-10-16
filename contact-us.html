@@ -17,9 +17,6 @@
     </div>
     <a button href="index.html">Home-Page</a>
 
- 
- 
-    <div class="container">
       <div class="launch-order">
         <h3>Order Now!</h3>
         <p>We're ready to take your order and deliver at no extra cost. Just click the button below to begin</p>
@@ -133,6 +130,22 @@
         <button type="submit" class="btn btn-success">Add Pizza</button>
       </form>
     </div>
+    <div class="order-summary initially-hidden">
+      <h3>Your order.</h3>
+      <p>Click on a pizza to view and hide more information.</p>
+      <div class="pizza-list"></div>
+      <h3>Total Cost: <span id="pizza-list-total-cost"></span></h3>
+      <button id="add-another-pizza" class="btn btn-success">Add another Pizza</button>
+      <button id="checkout-order" class="btn btn-success">Checkout Out</button>
+    </div>
+    <div class="checked-out  initially-hidden">
+      <h3>Your order is on its way!</h3>
+      <p>Click below to place a new order.</p>
+      <button type="button" class="btn btn-success" id="new-order">New Order</button>
+      <p>This site was constructed to demonstrate the use of Object Oriented Programming. Click the button below to log the complete customer order object to the console. Customer order object includes all customer information, pizzas, and totalCost. (open the console with alt-cmd-j in chrome)</p>
+      <buton class="btn btn-default" id="console-log">Log Object to Console</buton>
+    </div>
+
   </div>
 
 </body>

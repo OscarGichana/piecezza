@@ -1,0 +1,46 @@
+.initially-hidden {
+  display: none;
+}
+
+.jumbotron {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: orange;
+  text-align: center;
+  
+
+}
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+}
+
+img {
+  height: 300px;
+}
+.pep {
+  width: 450px;
+}
+.text {
+  text-align: center;
+}
+body{
+  background-color: aquamarine;
+}
+
+.order-pizza-input {
+  background-image: url("../images/bgg.jpg");
+  background-size: contain;
+
+}
+
+.order-summary {
+  background-image: url("../images/smile.jpg");
+  background-size: contain;
+}
+
